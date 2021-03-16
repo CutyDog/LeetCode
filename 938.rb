@@ -1,3 +1,5 @@
+#Range Sum of BST
+
 # Definition for a binary tree node.
 class TreeNode
     attr_accessor :val, :left, :right
@@ -8,7 +10,6 @@ class TreeNode
     end
 end
 # @param {TreeNode} root
-#Range Sum of BST
 
 # @param {Integer} low
 # @param {Integer} high
