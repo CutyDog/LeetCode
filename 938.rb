@@ -21,7 +21,7 @@ def range_sum_bst(root, low, high)
     result = 0
     unless root.nil?
         puts result
-
+        
         result += root.val if root.val >= low && root.val <= high
         result += range_sum_bst(root.right, low, high) unless root.right.nil?
         result += range_sum_bst(root.left, low, high) unless root.left.nil?
